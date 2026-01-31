@@ -218,4 +218,4 @@ Only surface lower‑rank items if higher‑rank items are complete.
 
 ## Version
 
-0.2
+0.3
