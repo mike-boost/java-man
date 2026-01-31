@@ -11,17 +11,17 @@
 
 ## 目录结构
 
-- `SKILL.md`：技能定义与完整工作流
-- `references/`：报告模板与表格（集成矩阵、配置清单、可视化图表、就绪度评分等）
+- `skills/java-man/SKILL.md`：技能定义与完整工作流
+- `skills/java-man/references/`：报告模板与表格（集成矩阵、配置清单、可视化图表、就绪度评分等）
 
 ## 在 Codex 中使用
 
-1. 将本技能放入 Codex 可发现的技能目录，例如：
-    - `~/.codex/skills`（默认的用户级目录）
-    - `./.codex/skills`（仓库级目录） citeturn1view0
-2. 重启 Codex 让技能被扫描加载 citeturn1view0
-3. 显式调用：在对话中输入 `/skills` 选择技能，或直接在提示词里输入 `$java-man` citeturn1view0
-4. 也可让 Codex 隐式触发（当任务与技能描述匹配时） citeturn1view0
+1. 将 `skills/java-man` 放入 Codex 可发现的技能目录，例如：
+    - `~/.codex/skills/java-man`（默认的用户级目录）
+    - `./.codex/skills/java-man`（仓库级目录）
+2. 重启 Codex 让技能被扫描加载
+3. 显式调用：在对话中输入 `/skills` 选择技能，或直接在提示词里输入 `$java-man`
+4. 也可让 Codex 隐式触发（当任务与技能描述匹配时）
 
 示例提示：
 
